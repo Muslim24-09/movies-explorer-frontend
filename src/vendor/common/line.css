@@ -1,0 +1,12 @@
+.sep-line {
+	width: 1px;
+	height: 40px;
+	background-color: #E8E8E8;
+}
+
+.line_grey {
+	margin: 0 auto;
+	width: 95%;
+	background-color: #E8E8E8;
+	height: 1px;
+}
