@@ -1,0 +1,81 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 8px 30px;
+}
+
+.logo{
+	display: block;
+	width: 38px;
+	height: 38px;
+	background: url('../../images/logo.svg') center / cover no-repeat;
+}
+
+.registration-btns {
+	display: flex;
+	align-items: center;
+	width: 185px;
+	gap: 30px;
+	margin: -3px -2px 0 0;
+}
+
+.button-registration {
+	display: block;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 133%;
+	border: none;
+	background-color: inherit;
+	cursor: pointer;
+}
+
+
+.button-signin {
+	display: block;
+	background: #2BE080;
+	border-radius: 3px;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 133%;
+	padding: 8px 20px;
+	border: none;
+	cursor: pointer;
+}
+
+
+@media screen and (max-width: 770px) {
+	.header__account {
+		display: none;
+	}
+
+	.registration-btns {
+    margin: -3px -16px 0 0;
+    width: 182px;
+    gap: 0px;
+    justify-content: space-between;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.header {
+		padding: 8px 10px;
+	}
+	.button-registration {
+		font-size: 10px;
+		line-height: 160%;
+	}
+	.button-signin{
+		font-size: 10px;
+		line-height: 160%;
+		padding: 5px 12px;
+		margin-left: 6px;
+	}
+	
+	.registration-btns {
+		margin: -1px -5px 0 0;
+    width: 130px;
+    gap: 0px;
+    justify-content: space-between;
+	}
+}
+

@@ -1,0 +1,81 @@
+.movie {
+	background: #FDFDFD;
+	box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+}
+
+.movie__flex {
+	display: flex;
+	justify-content: space-between;
+	padding: 14px;
+}
+
+.movie__btn {
+	width: 30px;
+	height: 30px;
+	border: none;
+	border-radius: 50%;
+	padding: 8px 10px;
+	background: #F9F9F9;
+	cursor: pointer;
+}
+
+.movie__btn_active {
+	background: #2BE080;
+}
+
+.movie__duration {
+	display: block;
+	margin-top: 10px;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 13px;
+	color: #A0A0A0;
+}
+
+.movie__image {
+	width: 100%;
+	height: 69%;
+}
+
+.movie__image img {
+	width: 100%;
+	object-fit: cover;
+}
+
+.movie__img-check {
+	margin-top: 7px;
+}
+
+.movie__title {
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+}
+
+.delete-btn {
+	width: 30px;
+	height: 30px;
+	padding: 6px;
+	background: #F9F9F9;
+	border-radius: 50%;
+	border: none;
+}
+
+.delete-btn img {
+	width: 59%;
+	object-fit: cover;
+}
+
+.delete-btn:hover {
+	cursor: pointer;
+}
+
+@media screen and (max-width: 525px) {
+	.movie__flex {
+		padding: 14px 15px;
+	}
+
+	.movie__btn {
+		margin-top: -2px;
+	}
+}

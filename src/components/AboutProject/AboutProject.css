@@ -1,0 +1,154 @@
+.about-project {
+	padding: 0 30px;
+}
+
+.about-project__flex {
+	display: flex;
+	gap: 53px;
+	margin-top: 70px;
+}
+
+.about-project__grid {
+	margin: 110px 0 100px;
+}
+
+.about-project__title {
+	margin-top: 110px;
+	margin-bottom: 23px;
+}
+
+.art-about-proj__text {
+	margin-top: 26px;
+}
+
+.title-article {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: -0.04em;
+}
+
+.text-article {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 143%;
+}
+
+.grid-about-proj {
+	display: grid;
+	grid-template: repeat(2, 36px) / 228px 1fr;
+	row-gap: 4px;
+}
+
+
+.grid-about-proj__item {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 121%;
+	text-align: center;
+	color: #A0A0A0;
+	padding-top: 10px;
+}
+
+.grid-about-proj__item:first-child {
+	background-color: #2BE080;
+
+}
+
+.grid-about-proj__item:nth-child(2) {
+	background-color: #F2F2F2;
+}
+
+.grid-about-proj__item_first-line {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	color: #000;
+}
+
+@media screen and (max-width: 770px) {
+
+	.art-about-proj{
+		width: 338px;
+	}
+
+	.about-project {
+		padding: 0 50px;
+	}
+
+	.about-project__title {
+		margin-top: 90px;
+	}
+
+	.about-project__flex {
+		gap: 42px;
+	}
+
+	.text-article {
+		margin-top: 21px;
+		font-size: 12px;
+		line-height: 150%;
+	}
+
+	.about-project__grid {
+		margin: 95px 0 83px;
+	}
+
+	.grid-about-proj {
+		grid-template: repeat(2, 35px) / 140px 1fr;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.about-project {
+		padding: 0 14px;
+	}
+
+	.about-project__title {
+		margin-top: 71px;
+		margin-bottom: 27px;
+	}
+
+	.about-project__flex {
+    margin-top: 61px;
+		flex-direction: column;
+		gap: 56px;
+	}
+
+	.title-article {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.text-article {
+		font-size: 11px;
+		line-height: 16px;
+	}
+
+	.art-about-proj{
+		width: 100%;
+	}
+	.art-about-proj__text {
+		margin-top: 16px;
+	}
+
+	.about-project__grid {
+		margin: 60px 0 83px;
+	}
+
+	.grid-about-proj {
+		grid-template: repeat(2, 35px) / 100px 184px;
+	}
+	.grid-about-proj__item{
+		padding-top: 5px;
+		font-size: 11px;
+		line-height: 13px;
+
+	}
+	.grid-about-proj__item_first-line {
+		padding-top: 11px;
+		font-size: 11px;
+		line-height: 13px;
+	}
+}
